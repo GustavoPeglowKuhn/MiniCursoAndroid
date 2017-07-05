@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="es.esy.alemao.calculadora.MainActivity"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Selecione uma opção"
+		android:gravity="center"
+		android:textSize="22sp"
+		android:padding="20sp"/>
+
+	<Button
+		android:id="@+id/main_btn_standard"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="22sp"
+		android:padding="20sp"
+		android:text="standard"/>
+
+	<Button
+		android:id="@+id/main_btn_bhaskara"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="22sp"
+		android:padding="20sp"
+		android:text="Bhaskara"/>
+
+</LinearLayout>

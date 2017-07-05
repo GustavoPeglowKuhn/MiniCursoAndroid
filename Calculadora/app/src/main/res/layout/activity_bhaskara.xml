@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="es.esy.alemao.calculadora.BhaskaraActivity"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp">
+
+		<EditText
+			android:id="@+id/bhaskara_txt_a"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="8"
+			android:ems="10"
+			android:inputType="numberSigned|numberDecimal"
+			android:textSize="20dp"/>
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"
+			android:gravity="center"
+			android:textSize="20dp"
+			android:text="x^2"/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp">
+
+		<EditText
+			android:id="@+id/bhaskara_txt_b"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="8"
+			android:ems="10"
+			android:inputType="numberSigned|numberDecimal"
+			android:textSize="20dp"/>
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"
+			android:textSize="20dp"
+			android:gravity="center"
+			android:text="x"/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp">
+
+		<EditText
+			android:id="@+id/bhaskara_txt_c"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="8"
+			android:ems="10"
+			android:inputType="numberSigned|numberDecimal"
+			android:textSize="20dp"/>
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"
+			android:textSize="20dp"
+			android:text=""/>
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/bhaskara_btn_calcular"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10sp"
+		android:textSize="22sp"
+		android:text="Calcular"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp">
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"
+			android:gravity="center"
+			android:textSize="20dp"
+			android:text="x':"/>
+		<TextView
+			android:id="@+id/bhaskara_txt_x1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="8"
+			android:textSize="20dp"
+			android:text=""/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:padding="10dp">
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"
+			android:gravity="center"
+			android:textSize="20dp"
+			android:text="x'':"/>
+		<TextView
+			android:id="@+id/bhaskara_txt_x2"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="8"
+			android:textSize="20dp"
+			android:text=""/>
+	</LinearLayout>
+
+</LinearLayout>
