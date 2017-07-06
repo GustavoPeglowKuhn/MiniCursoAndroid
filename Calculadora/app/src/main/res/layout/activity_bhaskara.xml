@@ -12,7 +12,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
-		android:padding="10dp">
+		android:padding="@dimen/padding">
 
 		<EditText
 			android:id="@+id/bhaskara_txt_a"
@@ -21,13 +21,13 @@
 			android:layout_weight="8"
 			android:ems="10"
 			android:inputType="numberSigned|numberDecimal"
-			android:textSize="20dp"/>
+			android:textSize="@dimen/text_size"/>
 		<TextView
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_weight="2"
 			android:gravity="center"
-			android:textSize="20dp"
+			android:textSize="@dimen/text_size"
 			android:text="x^2"/>
 	</LinearLayout>
 
@@ -35,7 +35,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
-		android:padding="10dp">
+		android:padding="@dimen/padding">
 
 		<EditText
 			android:id="@+id/bhaskara_txt_b"
@@ -44,12 +44,12 @@
 			android:layout_weight="8"
 			android:ems="10"
 			android:inputType="numberSigned|numberDecimal"
-			android:textSize="20dp"/>
+			android:textSize="@dimen/text_size"/>
 		<TextView
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_weight="2"
-			android:textSize="20dp"
+			android:textSize="@dimen/text_size"
 			android:gravity="center"
 			android:text="x"/>
 	</LinearLayout>
@@ -58,7 +58,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
-		android:padding="10dp">
+		android:padding="@dimen/padding">
 
 		<EditText
 			android:id="@+id/bhaskara_txt_c"
@@ -67,41 +67,40 @@
 			android:layout_weight="8"
 			android:ems="10"
 			android:inputType="numberSigned|numberDecimal"
-			android:textSize="20dp"/>
+			android:textSize="@dimen/text_size"/>
 		<TextView
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_weight="2"
-			android:textSize="20dp"
-			android:text=""/>
+			android:textSize="@dimen/text_size"/>
 	</LinearLayout>
 
 	<Button
 		android:id="@+id/bhaskara_btn_calcular"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:padding="10sp"
-		android:textSize="22sp"
-		android:text="Calcular"/>
+		android:padding="@dimen/padding"
+		android:textSize="@dimen/text_size"
+		android:text="@string/calcular"/>
 
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
-		android:padding="10dp">
+		android:padding="@dimen/padding">
 		<TextView
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_weight="2"
 			android:gravity="center"
-			android:textSize="20dp"
+			android:textSize="@dimen/text_size"
 			android:text="x':"/>
 		<TextView
 			android:id="@+id/bhaskara_txt_x1"
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_weight="8"
-			android:textSize="20dp"
+			android:textSize="@dimen/text_size"
 			android:text=""/>
 	</LinearLayout>
 
@@ -109,20 +108,20 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
-		android:padding="10dp">
+		android:padding="@dimen/padding">
 		<TextView
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_weight="2"
 			android:gravity="center"
-			android:textSize="20dp"
+			android:textSize="@dimen/text_size"
 			android:text="x'':"/>
 		<TextView
 			android:id="@+id/bhaskara_txt_x2"
 			android:layout_width="0dp"
 			android:layout_height="wrap_content"
 			android:layout_weight="8"
-			android:textSize="20dp"
+			android:textSize="@dimen/text_size"
 			android:text=""/>
 	</LinearLayout>
 

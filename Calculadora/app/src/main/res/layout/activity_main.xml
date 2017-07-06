@@ -11,25 +11,25 @@
 	<TextView
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:text="Selecione uma opção"
+		android:text="@string/selecione_opcao"
 		android:gravity="center"
-		android:textSize="22sp"
+		android:textSize="@dimen/text_size"
 		android:padding="20sp"/>
 
 	<Button
 		android:id="@+id/main_btn_standard"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:textSize="22sp"
+		android:textSize="@dimen/text_size"
 		android:padding="20sp"
-		android:text="standard"/>
+		android:text="@string/standard"/>
 
 	<Button
 		android:id="@+id/main_btn_bhaskara"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:textSize="22sp"
+		android:textSize="@dimen/text_size"
 		android:padding="20sp"
-		android:text="Bhaskara"/>
+		android:text="@string/bhaskara"/>
 
 </LinearLayout>

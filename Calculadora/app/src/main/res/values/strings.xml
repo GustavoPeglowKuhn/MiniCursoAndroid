@@ -1,3 +1,8 @@
 <resources>
 	<string name="app_name">Calculadora</string>
+	<string name="calcular">Calcular</string>
+	<string name="selecione_opcao">Selecione uma opção</string>
+	<string name="standard">standard</string>
+	<string name="bhaskara">Bhaskara</string>
+	<string name="raiz_imaginaria">Não há raizes</string>
 </resources>
